@@ -1105,7 +1105,10 @@ label{
 }
 @media(max-width: 575px){
   .headerSearch input{
-    width: 180px;
+    width: 150px;
+  }
+  .headerSearch input::placeholder{
+    font-size: 12px;
   }
   .headerSearch svg{
     right: 10px;
@@ -1162,5 +1165,36 @@ label{
   }
   .headerCart__caption{
     line-height: 1.2;
+  }
+  .hamburger{
+    width: 30px;
+    height: 20px;
+  }
+  .hamburger span{
+    height: 3px;
+  }
+  .carSelection{
+    padding: 30px;
+  }
+  .carList__brand, .carBrand__model{
+    width: 50%;
+  }
+  .carSelection__subheader{
+    margin-bottom: 30px;
+  }
+  .carList__brand li{
+    width: 100%;
+  }
+  .carSelection__footer{
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .carBrandLogo{
+    width: auto;
+    margin-bottom: 20px;
+  }
+  .carSelection__carList{
+    margin-bottom: 0;
   }
 }
