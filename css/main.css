@@ -1111,7 +1111,10 @@ label{
     right: 10px;
   }
   .upperColumn nav ul li{
-    font-size: 12px;
+    font-size: 10px;
+  }
+  .upperColumn nav{
+    padding: 10px 0;
   }
   .headerContacts{
     -webkit-flex-direction: row;
@@ -1146,5 +1149,18 @@ label{
   }
   .footerNav > * {
     width: 50%;
+  }
+  .logotype img{
+    width: 90px;
+  }
+  .slogan{
+    line-height: 1.2;
+    font-size: 10px;
+  }
+  .headerCart__img svg{
+    width: 25px;
+  }
+  .headerCart__caption{
+    line-height: 1.2;
   }
 }
